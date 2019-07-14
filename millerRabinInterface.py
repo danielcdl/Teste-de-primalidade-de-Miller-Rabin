@@ -5,7 +5,7 @@ from tkinter import *
 from tkinter import ttk
 
 
-def MillerRabin(n, t):  # Realiza o Teste de Fermat t vezes para o numero n
+def MillerRabin(n, t):  # Realiza o Teste de Miller-Rabin t vezes para o numero n
     if t > n - 3:  # o numero de tentativas nao pode exceder n-3
         t = n - 3
     s = 0
